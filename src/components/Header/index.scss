@@ -1,0 +1,31 @@
+.header{
+    height: 0.813rem;
+    color: white;
+    height: 2.188rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.469rem 0 2.469rem 0;
+    font-family: MontserratBold;
+
+    &_logo{
+        width: 16rem;
+        height: 2.188rem;
+        object-fit: contain;
+    }
+
+    &_item{
+        display: inline-block;
+        margin-right: 1.875rem;
+        font-size: 0.875rem;
+    }
+
+    &_item:last-child{
+        margin-right: 0rem;
+    }
+
+    &_tem-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}

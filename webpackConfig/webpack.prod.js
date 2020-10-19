@@ -1,16 +1,19 @@
-const merge = require("webpack-merge")
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
-const Webpack = require("webpack")
-const dotenv = require("dotenv")
-const common = require("./webpack.common.js")
+const merge = require("webpack-merge");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const Webpack = require("webpack");
+const dotenv = require("dotenv");
+const common = require("./webpack.common.js");
 
-dotenv.config()
+dotenv.config();
 
 module.exports = merge(common, {
   mode: "production",
   bail: true,
   devtool: "source-map",
-  plugins: [new CleanWebpackPlugin(), new Webpack.EnvironmentPlugin(["NODE_ENV"])],
+  plugins: [
+    new CleanWebpackPlugin(),
+    new Webpack.EnvironmentPlugin(["NODE_ENV"]),
+  ],
   optimization: {
     splitChunks: {
       chunks: "async",
@@ -35,4 +38,4 @@ module.exports = merge(common, {
       },
     },
   },
-})
+});

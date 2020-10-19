@@ -1,6 +1,7 @@
 @import "../../scss//variables";
 
-
-h1{
-    color: $header-color;
+.landing-page{
+    height: 100vh;
+    background-image: url("../../assets/images/home-hero-bg@2x.png");
+    background-size: cover;
 }
