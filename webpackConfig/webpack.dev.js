@@ -8,11 +8,13 @@ dotenv.config();
 
 module.exports = merge(common, {
   mode: "development",
-  devtool: "inline-source-map",
+  devtool: "source-map",
   devServer: {
     contentBase: path.join(__dirname, "../src"),
     publicPath: "/",
     compress: true,
+    overlay: true,
+    liveReload: false,
     hot: true,
     port: 8080,
     historyApiFallback: true,

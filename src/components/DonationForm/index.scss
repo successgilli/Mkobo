@@ -1,0 +1,22 @@
+.donation-form {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 34.875rem;
+    box-sizing: border-box;
+
+    padding: 2.25rem;
+
+    &_title {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #3E4C5B;
+        text-transform: uppercase;
+        font-family: MontserratBold;
+        font-size: 1.875rem;
+        margin-bottom: 2rem;
+    }
+
+    &_input::placeholder{
+        color: #9AA8B6;
+    }
+}
