@@ -7,7 +7,7 @@ export default [
   {
     label: "WHAT WOULD YOU LIKE TO DONATE?",
     placeholder: "E.g Lagos",
-    type: "text",
+    type: "datetime-local",
   },
   {
     label: "WHAT WOULD YOU LIKE TO DONATE?",

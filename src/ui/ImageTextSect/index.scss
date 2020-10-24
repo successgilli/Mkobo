@@ -1,0 +1,21 @@
+.img-text-sect {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 8.25rem;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+    
+    align-items: center;
+    &_img {
+        height: 35rem;
+    }
+    &_text {
+        width: 35.7rem;
+        
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

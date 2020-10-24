@@ -14,50 +14,40 @@
         padding: 0 11rem 0 11rem;
     }
 
-    &_hero-right {
-        justify-content: flex-end;
-        display: flex;
-        height: auto;
-        width: 100%;
-    }
-
-    &_hero-left {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        color: #FFFFFF;
-        height: auto;
-        width: 100%;
-        padding-bottom: 5.5rem;
-
-        &-title{
-            font-size: 5rem;
-            font-family: MontserratBold;
-        }
-        &-title2{
-            font-size: 6rem;
-            line-height: 7.063rem;
-            font-family: MontserratBold;
-        }
-        &-title3{
-            font-size: 1.375rem;
-            font-family: MontserratBold;
-            text-align: left;
-            margin-top: 0.438rem;
-        }
-        &-name{
-            font-family: MontserratMedium;
-            margin-bottom: 3.5rem;
-            font-size: 1.375rem;
-            line-height: 2.219rem;
-        }
-    }
-
     &_divider{
         border: 1px solid white;
         border-top: 0;
         border-bottom: 0;
     }
+
+    &_imgtext{
+        display: grid;
+        row-gap: 10.438rem;
+        margin-top: 10.438rem;
+        padding: 0 23.438rem 0 23.438rem;
+
+        &-text{
+            color: #9AA8B6;
+            font-family: MontserratRegular;
+            font-size: 1.375rem;
+            line-height: 2.125rem;
+        }
+        &-head{
+            color: #3E4C5B;
+            font-family: MontserratBold;
+            font-size: 3.125rem;
+            line-height: 3.813rem;
+            margin-bottom: 2.938rem;
+        }
+
+        &-head2{
+            color: #3E4C5B;
+            font-family: MontserratBold;
+            font-size: 1.375rem;
+            line-height: 2.125rem;
+            margin-top: 1.438rem;
+        }
+    }
+
 }
 
