@@ -7,6 +7,7 @@ import ImgTextSect from "../../ui/ImageTextSect";
 import lovebag from "../../assets/images/love-bag.png";
 import coloredHands from "../../assets/images/coloredHands.png";
 import HeroSectionElem from "../../ui/LandingHeroSect";
+import LivesAffectedSect from "../../ui/LandingAffectedSect";
 
 import "./index.scss";
 
@@ -72,6 +73,10 @@ const LandingPage = () => {
           children={textForBag2}
         />
       </Column>
+      <Column classname="landing-page_section2">
+        <LivesAffectedSect />
+      </Column>
+      <Column classname="landing-page_section2">"bjbjef"</Column>
     </div>
   );
 };
