@@ -1,0 +1,17 @@
+.home-subscribe{
+    text-align: center;
+    font-size: 1.375rem;
+    font-family: MontserratMedium;
+    line-height: 2.125rem;
+
+    &_text1{
+        color: #3E4C5B;
+    }
+
+    &_text2{
+        color: #23CF5F;  
+        font-family: MontserratBold;
+        display: block;
+        margin-bottom: 2.75rem;
+    }
+}

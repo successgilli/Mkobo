@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import TextCard from "../../components/TitleText";
 import Counter from "../../components/Counter";
@@ -7,7 +7,7 @@ import "./index.scss";
 
 const SectionElem = () => {
   return (
-    <Fragment>
+    <section>
       <h1 className="home-affected_head">MILLION LIVES ADDENDUM</h1>
       <div className="home-affected_container">
         <div className="home-affected_container_item home-affected_container_item--1">
@@ -60,7 +60,7 @@ const SectionElem = () => {
           counterClass="home-affected_count"
         />
       </div>
-    </Fragment>
+    </section>
   );
 };
 

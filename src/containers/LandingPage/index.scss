@@ -52,6 +52,23 @@
             margin-top: 1.438rem;
         }
     }
+    &_contact-head{
+        color: $home-headers-color;
+        font-size: $home-headers-font-size;
+        font-family: $home-headers-font-family;
+        text-align: center; 
+        line-height: 3.813rem;
+        margin-bottom: 2.719rem;
+    }
+    &_contact-body{
+        color: #6E6E6E;
+        font-size: 1.875rem;
+        font-family: MontserratSemiBold;
+        text-align: center; 
+        line-height: 3.063rem;
+    }
+    &_contact-container{
+        margin-bottom: 11.719rem;
+    }
 
 }
-

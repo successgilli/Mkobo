@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import CollapseElem from "../../components/Collapsible";
 
@@ -43,12 +43,12 @@ const accordionElems = [
 
 const Faq = () => {
   return (
-    <Fragment>
+    <section>
       <h3 className="home-faq">FAQ</h3>
       <div className="home-faq_container">
         <CollapseElem elems={accordionElems} />
       </div>
-    </Fragment>
+    </section>
   );
 };
 

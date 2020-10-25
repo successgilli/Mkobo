@@ -11,6 +11,7 @@ import LivesAffectedSect from "../../ui/LandingAffectedSect";
 import WhyDonate from "../../ui/WhyDonate";
 import OurStorySection from "../../ui/HomeOurStory";
 import Faq from "../../ui/HomeFaq";
+import SubscribeSect from "../../ui/HomeSubscribe";
 
 import "./index.scss";
 
@@ -75,20 +76,17 @@ const LandingPage = () => {
           width="34.625rem"
           children={textForBag2}
         />
-      </Column>
-      <Column classname="landing-page_section2">
         <LivesAffectedSect />
-      </Column>
-      <Column classname="landing-page_section2">
         <WhyDonate />
-      </Column>
-      <Column classname="landing-page_section2">
         <OurStorySection />
-      </Column>
-      <Column classname="landing-page_section2">
         <Faq />
+        <SubscribeSect />
+        <section className="landing-page_contact-container">
+          <p className="landing-page_contact-head">Contact us</p>
+          <p className="landing-page_contact-body">help@magickobo.africa</p>
+          <p className="landing-page_contact-body">+234 809 427 1432</p>
+        </section>
       </Column>
-      <Column classname="landing-page_section2">hbdfhjer</Column>
     </div>
   );
 };

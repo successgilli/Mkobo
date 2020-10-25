@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import booksImg from "../../assets/images/books-table.png";
 
@@ -6,7 +6,7 @@ import "./index.scss";
 
 const ourStory = () => {
   return (
-    <Fragment>
+    <section>
       <h3 className="our-story">OUR STORY</h3>
       <div>
         <img className="our-story_img" src={booksImg} alt="" srcset="" />
@@ -29,7 +29,7 @@ const ourStory = () => {
           </span>
         </p>
       </div>
-    </Fragment>
+    </section>
   );
 };
 

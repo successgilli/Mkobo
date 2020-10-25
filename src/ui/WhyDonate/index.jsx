@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import TextComponent from "../../components/TitleText";
 
@@ -36,10 +36,10 @@ const Why = () => {
     <TextComponent title={head} text={body} />
   ));
   return (
-    <Fragment>
+    <section>
       <h3 className="why-donate">WHY DONATE THROUGH MAGICKOBO?</h3>
       <div className="why-donate_text-container">{text}</div>
-    </Fragment>
+    </section>
   );
 };
 

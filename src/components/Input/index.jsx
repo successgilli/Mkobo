@@ -16,6 +16,8 @@ const InputComponent = ({
   rightChild,
   leftChild,
   type,
+  containerStyle,
+  InputRightStyle,
 }) => {
   return (
     <Fragment>
@@ -24,7 +26,7 @@ const InputComponent = ({
           {labelText}
         </label>
       )}
-      <InputGroup>
+      <InputGroup style={containerStyle}>
         {leftChild && (
           <InputLeftElement
             color="gray.300"
@@ -39,20 +41,40 @@ const InputComponent = ({
           id="j"
           placeholder={placeholderText}
         />
-        {rightChild && <InputRightElement children={rightChild} />}
+        {rightChild && (
+          <InputRightElement
+            boxSizing="border-box"
+            style={InputRightStyle}
+            children={rightChild}
+          />
+        )}
       </InputGroup>
     </Fragment>
   );
 };
-// {<Icon name="check" color="green.500" />}
 
 InputComponent.propTypes = {
   labelText: Proptypes.string.isRequired,
   inputStyle: Proptypes.shape({}),
+  labelStyle: Proptypes.shape({}),
+  placeholderText: Proptypes.string,
+  inputClass: Proptypes.string,
+  rightChild: Proptypes.node,
+  leftChild: Proptypes.node,
+  type: Proptypes.string,
+  containerStyle: Proptypes.shape({}),
+  InputRightStyle: Proptypes.shape({}),
 };
 
 InputComponent.defaultProps = {
   inputStyle: {},
+  type: "text",
+  labelStyle: {},
+  rightChild: null,
+  leftChild: null,
+  placeholderText: "",
+  containerStyle: {},
+  InputRightStyle: {},
 };
 
 export default InputComponent;
