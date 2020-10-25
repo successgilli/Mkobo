@@ -8,6 +8,7 @@ import lovebag from "../../assets/images/love-bag.png";
 import coloredHands from "../../assets/images/coloredHands.png";
 import HeroSectionElem from "../../ui/LandingHeroSect";
 import LivesAffectedSect from "../../ui/LandingAffectedSect";
+import WhyDonate from "../../ui/WhyDonate";
 
 import "./index.scss";
 
@@ -76,7 +77,9 @@ const LandingPage = () => {
       <Column classname="landing-page_section2">
         <LivesAffectedSect />
       </Column>
-      <Column classname="landing-page_section2">"bjbjef"</Column>
+      <Column classname="landing-page_section2">
+        <WhyDonate />
+      </Column>
     </div>
   );
 };
