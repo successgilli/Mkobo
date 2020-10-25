@@ -1,0 +1,27 @@
+@import "../../scss/variables";
+
+.our-story{
+    color: $home-headers-color;
+    font-size: $home-headers-font-size;
+    font-family: $home-headers-font-family;
+    text-align: center; 
+    line-height: 3.813rem;
+    margin-bottom: 5.344rem;
+
+    &_img{
+        width: 58.555rem;
+        margin: auto;
+        display: block;
+    }
+
+    &_story{
+        width: 58.555rem;
+        margin: auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        color: #9AA8B6;
+        font-size: 1.375rem;
+        font-family: MontserratMedium;
+        line-height: 2.125rem;
+    }
+}

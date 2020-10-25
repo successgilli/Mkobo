@@ -1,0 +1,26 @@
+@import "../../scss/variables";
+
+.home-faq{
+    color: $home-headers-color;
+    font-size: $home-headers-font-size;
+    font-family: $home-headers-font-family;
+    text-align: center; 
+    line-height: 3.813rem;
+    margin: auto;
+    margin-bottom: 5.344rem;
+    width: 58.555rem;
+    
+
+    &_container{
+        width: 58.555rem;
+        margin: auto;
+    }
+
+    &_txt{
+    color: #9AA8B6;
+     font-size: 1.375rem;
+     font-family: MontserratMedium;
+     line-height: 2.125rem;
+     margin-bottom: 2.094rem;
+    }
+}

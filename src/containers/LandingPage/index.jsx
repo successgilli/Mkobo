@@ -9,6 +9,8 @@ import coloredHands from "../../assets/images/coloredHands.png";
 import HeroSectionElem from "../../ui/LandingHeroSect";
 import LivesAffectedSect from "../../ui/LandingAffectedSect";
 import WhyDonate from "../../ui/WhyDonate";
+import OurStorySection from "../../ui/HomeOurStory";
+import Faq from "../../ui/HomeFaq";
 
 import "./index.scss";
 
@@ -80,6 +82,13 @@ const LandingPage = () => {
       <Column classname="landing-page_section2">
         <WhyDonate />
       </Column>
+      <Column classname="landing-page_section2">
+        <OurStorySection />
+      </Column>
+      <Column classname="landing-page_section2">
+        <Faq />
+      </Column>
+      <Column classname="landing-page_section2">hbdfhjer</Column>
     </div>
   );
 };
