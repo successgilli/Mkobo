@@ -36,8 +36,8 @@ const Why = () => {
     <TextComponent title={head} text={body} />
   ));
   return (
-    <section>
-      <h3 className="why-donate">WHY DONATE THROUGH MAGICKOBO?</h3>
+    <section className="why-donate">
+      <h3 className="why-donate_head">WHY DONATE THROUGH MAGICKOBO?</h3>
       <div className="why-donate_text-container">{text}</div>
     </section>
   );

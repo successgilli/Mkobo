@@ -1,7 +1,10 @@
 @import "../../scss/variables";
 
 .why-donate{
-    color: $home-headers-color;
+    width: 73rem;
+    margin: auto;
+    &_head{
+        color: $home-headers-color;
     font-size: $home-headers-font-size;
     font-family: $home-headers-font-family;
     width: 41.75rem;
@@ -9,6 +12,7 @@
     margin: auto;
     margin-bottom: 5.344rem;
     text-align: center;
+    }
 
     &_text-container{
         display: grid;

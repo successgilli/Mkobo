@@ -7,7 +7,7 @@ import "./index.scss";
 
 const SectionElem = () => {
   return (
-    <section>
+    <section className="home-affected">
       <h1 className="home-affected_head">MILLION LIVES ADDENDUM</h1>
       <div className="home-affected_container">
         <div className="home-affected_container_item home-affected_container_item--1">

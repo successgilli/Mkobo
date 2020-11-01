@@ -1,6 +1,8 @@
 @import "../../scss/variables";
 
 .home-affected{
+    width: 73rem;
+    margin: auto;
     &_head {
         color: $home-headers-color;
         font-size: $home-headers-font-size;

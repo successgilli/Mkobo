@@ -72,3 +72,53 @@
     }
 
 }
+@media(max-width: 1753px){
+    html{
+        font-size: 14px !important;
+    }
+}
+
+@media(max-width: 1441px){
+    html{
+        font-size: 11px !important;
+    }
+}
+
+@media(max-width: 1300px){
+    html{
+        font-size: 9px !important;
+    }
+}
+
+@media(max-width: 1024px){
+    .landing-page_imgtext {
+        padding: 0 20.438rem 0 20.438rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .landing-page_hero-form-container {
+        padding: 0;
+    }
+    .landing-page_imgtext {
+        padding: 0;
+    }
+}
+
+@media(max-width: 738px){
+    .landing-page_hero-form-container {
+        padding: 0 11rem 0 11rem;
+        flex-direction: column;
+    }
+    .donation-form{
+        width: 100%;
+    }
+}
+
+@media(max-width: 727px){
+    .landing-page_hero-form-container {
+        padding: 0 11rem 0 11rem;
+        flex-direction: column;
+    }
+}
+
