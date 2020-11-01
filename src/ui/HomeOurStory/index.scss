@@ -12,6 +12,17 @@
         width: 58.555rem;
         margin: auto;
         display: block;
+        @media(max-width: 700px){
+            & {
+                width: 34.625rem;
+            }
+        }
+        @media(max-width: 605px){
+            &{
+                width: 100%;
+                
+            }
+        }
     }
 
     &_story{
@@ -23,5 +34,17 @@
         font-size: 1.375rem;
         font-family: MontserratMedium;
         line-height: 2.125rem;
+
+        @media(max-width: 700px){
+            & {
+                width: 34.625rem;
+            }
+        }
+        @media(max-width: 605px){
+            &{
+                width: 100%;
+        margin-top: 5rem;
+            }
+        }
     }
 }

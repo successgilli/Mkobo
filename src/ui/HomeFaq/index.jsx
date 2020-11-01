@@ -43,8 +43,8 @@ const accordionElems = [
 
 const Faq = () => {
   return (
-    <section>
-      <h3 className="home-faq">FAQ</h3>
+    <section className="home-faq">
+      <h3 className="home-faq_head">FAQ</h3>
       <div className="home-faq_container">
         <CollapseElem elems={accordionElems} />
       </div>

@@ -9,6 +9,12 @@
     align-items: center;
     &_img {
         height: 35rem;
+
+        @media(max-width: 426px){
+            & {
+                width: 100%;
+            }
+        }
     }
     &_text {
         width: 35.7rem;
@@ -17,5 +23,19 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        @media(max-width: 605px){
+            &{
+                width: 100% !important;
+        margin-top: 5rem;
+            }
+        }
     }
+
+    @media(max-width: 700px){
+        & {
+            flex-direction: column !important;
+        }
+    }
+    
 }
+

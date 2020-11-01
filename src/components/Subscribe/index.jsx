@@ -6,7 +6,8 @@ import Button from "../Button";
 import "./index.scss";
 
 const inputContainerStyle = {
-  width: "44.375rem",
+  width: "100%",
+  maxWidth: "44.375rem",
   margin: "auto",
 };
 const inputStyle = {

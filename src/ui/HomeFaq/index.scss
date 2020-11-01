@@ -1,18 +1,20 @@
 @import "../../scss/variables";
 
 .home-faq{
-    color: $home-headers-color;
-    font-size: $home-headers-font-size;
-    font-family: $home-headers-font-family;
-    text-align: center; 
-    line-height: 3.813rem;
     margin: auto;
     margin-bottom: 5.344rem;
     width: 58.555rem;
+    &_head{
+        color: $home-headers-color;
+        font-size: $home-headers-font-size;
+        font-family: $home-headers-font-family;
+        text-align: center; 
+        line-height: 3.813rem;
+    }
     
 
     &_container{
-        width: 58.555rem;
+        width: 100%;
         margin: auto;
     }
 
@@ -23,4 +25,16 @@
      line-height: 2.125rem;
      margin-bottom: 2.094rem;
     }
+
+    @media(max-width: 700px){
+    & {
+        width: 34.625rem;
+    }
+}
+@media(max-width: 605px){
+    &{
+        width: 100%;
+margin-top: 5rem;
+    }
+}
 }

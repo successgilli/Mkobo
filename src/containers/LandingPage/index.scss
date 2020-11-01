@@ -5,6 +5,13 @@
         height: 100vh;
         background-image: url("../../assets/images/home-hero-bg@2x.png");
         background-size: cover;
+
+        @media(max-width: 727px){
+            & {
+                height: auto;
+                padding-bottom: 10rem;
+            }
+        }
     }
 
     &_hero-form-container {
@@ -122,3 +129,45 @@
     }
 }
 
+@media(max-width: 605px){
+    .landing-page_imgtext {
+        padding: 0 3.625rem 0 3.625rem;
+    }
+    .landing-page_hero-form-container {
+        padding: 0rem;
+    }
+}
+
+@media(max-width: 426px){
+    
+    html{
+     font-size: 7px !important;
+    }
+}
+
+@media(max-width: 350px){
+    
+    html{
+     font-size: 6px !important;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+        .landing-page_hero {
+            height: auto;
+            padding-bottom: 10rem;
+        }
+}
+
+@media only screen
+and (min-device-width: 1112px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .landing-page_hero {
+        height: auto;
+        padding-bottom: 10rem;
+    }
+}
